@@ -1,6 +1,12 @@
+import Flutter
 import Photos
+#if SWIFT_PACKAGE
+import FacebookCore
+import FacebookShare
+#else
 import FBSDKCoreKit
 import FBSDKShareKit
+#endif
 import Social
 import MobileCoreServices
 
